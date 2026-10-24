@@ -1,1 +1,17 @@
-<link rel="manifest" href="/manifest.json">
+{
+  "name": "Android-Super-App",
+  "short_name": "SuperApp",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "description": "An all-in-one mobile ecosystem featuring secure admin-verified access.",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
+
