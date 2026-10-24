@@ -1,5 +1,6 @@
 data class UserProfile(
     val userId: String = "",
     val email: String = "",
-    val status: String = "pending" // "pending" or "approved"
+    val phoneNumber: String = "", // Added customer phone number
+    val status: String = "pending"
 )
